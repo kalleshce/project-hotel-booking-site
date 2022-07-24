@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --button-background-color: #FE5303;
+    --text-color: #ffffff;
+    --selector-color: #BDBDBD;
+}
+
+* {
+    margin: 0;
+}
+
+.home {
+    background-image: url('https://pixabay.com/get/g6a3f6f28db90ac17d5076f2d6efc50b8c2059682d6b13fb58e42753367fd8831968480af00c8e49faa196f4d64e4550a25bc037fd298c8fb277aaaf04c7dabac58c6199a8dc3a532ac504e625226766e_1920.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: var(--text-color);
+}
+
+.home-container {
+    margin: 0 170px;
+}
+
+.top-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 135px;
+    margin: 0 170px;
+}
+
+
+.logo-left {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.reservation {
+    padding: 8px 36px;
+    border-left: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--button-background-color);
+    color: var(--text-color);
+    position: relative;
+}
+
+.fa-bookmark {
+    color: var(--text-color);
+    position: absolute;
+    top: 50px;
+    right: 305px;
+    z-index: 1;
+}
+
+.title {
+    font-family: Playfair display;
+    font-size: 60px;
+    color: var(--text-color);
+    width: 550px;
+}
+
+.heading {
+    font-family: Playfair display;
+    font-size: 60px;
+    width: 550px;
+}
+
+.description {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    align-items: top;
+    background-color: white;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--selector-color);
+}
+
+.check-in {
+    margin: 12px 55px;
+}
+
+.check-out {
+    margin: 12px 55px;
+}
+
+.persons {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 12px 55px;
+}
+
+.booking-data {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Poppins;
+}
+
+
+.book-now {
+    align-items: center;
+    padding: 22px 30px;
+    margin-left: 6px;
+    font-family: Poppins;
+    font-size: 10px;
+    background-color: var(--button-background-color);
+    color: var(--text-color);
+    border-color: var(--button-background-color);
+    border-radius: 4px;
+
+}
+
+.about-us {
+    margin: 165px 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph {
+    width: 524px;
+    margin: 10px 0;
+    color: var(--selector-color);
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.heading {
+    font-family: Playfair display;
+    font-size: 48px;
+    width: 550px;
+}
+
+.accomodations {
+    margin: 10px 170px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-heading {
+    font-family: Playfair display;
+    font-size: 48px;
+    width: 550px;
+}
+
+.room-more {
+    font-family: poppins;
+    color: var(--button-background-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lineone-image {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 10px;
+}
+
+.linetwo-image {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.picture {
+    margin: 10px;
+}
+
+.linetwo-image :nth-child(accomodation-variety) {
+    bottom: 20px;
+}
+
+.accomodation-variety {
+    font-family: playfair display;
+    font-size: 24px;
+    font-weight: 700;
+    right: 500px;
+}
+
+
+.pricetag {
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.duration {
+    font-family: poppins;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+
+.testimonials {
+    margin-left: 170px;
+    background-color: #F2F2F2;
+}
+
+h3 {
+    font-family: playfair display;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.special-color {
+    color: var(--button-background-color);
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-review {
+    padding: 10px 0;
+    font-family: playfair display;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.review {
+    font-family: playfair display;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review-one {
+    border-radius: 10px;
+    width: 750px;
+    height: 320px;
+}
+
+.review-two {
+
+    width: 750px;
+    height: 320px;
+}
+
+.review-three {
+
+    width: 750px;
+    height: 320px;
+}
